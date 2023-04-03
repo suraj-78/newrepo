@@ -17,6 +17,8 @@ int main()
             cout<<x;
             p++;
             }
+            //jab last time loop chalega uske bad x ++ ho 
+            // jayega but wo last me condition satisfy nhi hogi issiliye ye loop khatam hone k bad hame x=x-1 karna padega
             
             for(int q=3; q<2*i; q++){
             cout<<" ";
