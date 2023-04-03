@@ -13,17 +13,19 @@ int main()
             cout<<j;
         }
         else{
-            for(int p=1; p<=n-i; x++){
+            for(int p=1; p<=n-i+1; x++){
             cout<<x;
+            p++;
             }
             
             for(int q=3; q<2*i; q++){
             cout<<" ";
-            x++;
+           
             }
-            for(int r=n; r>=i; r--){
-            cout<<char(x+64);
-            x++;
+            x=x-1;
+            for(int p=1; p<=n-i+1; x--){
+            cout<<x;
+            p++;
             }
         }
         cout<<endl;
