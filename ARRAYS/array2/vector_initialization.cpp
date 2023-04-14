@@ -13,5 +13,4 @@ int main()
     cout<<v[2]<<endl;
     cout<<v[3]<<endl;
 
-
 } 
