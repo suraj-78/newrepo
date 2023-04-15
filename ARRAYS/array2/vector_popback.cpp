@@ -19,8 +19,5 @@ int main()
     
     v.pop_back();
     v.pop_back();
-    cout<<"size is :"<<v.size()<<endl;
-    cout<<"Capacity is :"<<v.capacity()<<endl;
-
 
 } 
